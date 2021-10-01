@@ -1,0 +1,60 @@
+
+@media(max-width:576px) and (min-width:0px){
+    .navbar-light .navbar-nav .nav-link {
+        display: inline-block;
+        margin-left: 0px;
+        
+    }
+    .nav-item{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .banner_content img{
+        display: none;
+    }
+    .banner_content {
+        text-align: center;
+        margin: auto;
+        justify-content: space-around;
+        margin-top: 30px;
+    }
+    .banner_content h1 {
+        font-size: 35px;
+        text-transform: capitalize;
+    }
+    .get_theme h1 {
+        display: none;
+    }
+    .get-button {
+        justify-content: space-around;
+    }
+    form {
+        bottom: -357px;
+
+    }
+    
+  
+}
+@media(max-width:426px) and (min-width:0px){
+    .btn_download{
+        margin-right: 0px;
+    }
+    .banner_content h1 {
+        font-size: 29px;
+    }
+
+}
+@media(max-width:376px) and (min-width:0px){
+    .btn_download{
+        margin-bottom: 10px;
+    }
+    .banner_content h1 {
+        font-size: 25px;
+    }
+    .btn_Feature {
+        padding: 11px 14px;
+    }
+    .btn_download{
+        padding: 11px 6px;
+    }
+}
